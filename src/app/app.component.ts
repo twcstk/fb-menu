@@ -7,11 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'fb-menu';
-  menuElements: { type: string, name: string, content: string }[] = [ {
-    type: "Food",
-    name: "Test",
-    content: "Some content"
-  }];
+  menuElements: { type: string, name: string, content: string }[] = [ ];
   newMenuName = '';
   newMenuContent = '';
 
