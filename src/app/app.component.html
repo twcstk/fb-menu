@@ -1,7 +1,9 @@
 <div class="container">
   <div class="row mt-2 mb-4">
     <div class="col-12">
-      <h4>Restuarant : Food and Beverage Menu</h4>
+      <p class="h3">
+        Restuarant : Food and Beverage Menu</p>
+
       <label>Menu Name</label>
       <input type="text" class="form-control" [(ngModel)]="newMenuName" />
       <label>Menu Content</label>
@@ -28,12 +30,12 @@
           >
             {{ item.content }}
           </div>
-          <div
+          <p
             class="card-subtitle fst-italic"
             *ngIf="item.type === 'Beverage'"
           >
             {{ item.content }}
-          </div>
+          </p>
         </div>
       </div>
     </div>
